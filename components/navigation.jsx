@@ -1,10 +1,11 @@
 import Link from "next/link";
+import styles from "./nav.module.css";
 
 function Navigation() {
   return (
     <nav>
       <Link href="/about">
-        <a>Hakkımda</a>
+        <a className={styles.rodi}>Hakkımda</a>
       </Link>{" "}
       <Link href="/">
         <a>Ana Sayfa</a>
