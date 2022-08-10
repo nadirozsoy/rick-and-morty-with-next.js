@@ -5,8 +5,7 @@ function Navigation() {
     <nav>
       <Link href="/about">
         <a>Hakkımda</a>
-      </Link>
-      {" "}
+      </Link>{" "}
       <Link href="/">
         <a>Ana Sayfa</a>
       </Link>
