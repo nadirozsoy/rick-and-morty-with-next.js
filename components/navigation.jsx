@@ -8,8 +8,9 @@ function Navigation() {
         <a className={styles.rodi}>Hakkımda</a>
       </Link>{" "}
       <Link href="/">
-        <a>Ana Sayfa</a>
+        <a style={{ color: "purple" }}>Ana Sayfa</a>
       </Link>
+      <p>Lorem ipsum dolor sit amet.</p>
     </nav>
   );
 }
