@@ -2,6 +2,7 @@ import Layout from "../components/layout";
 import Head from "next/head";
 import Link from "next/link";
 import slug from "slug";
+import styles from "./index.module.css";
 
 function HomePage({ characters }) {
   return (
@@ -14,7 +15,7 @@ function HomePage({ characters }) {
         {characters.results.map((character) => (
           <li key={character.id}>
             <Link href="/character/[slug]" as={`/character/${slug(character.name)}-${character.id}`}>
-              <a>{character.name}</a>
+              <a className={styles.index}>{character.name}</a>
             </Link>
           </li>
         ))}

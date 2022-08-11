@@ -5,12 +5,12 @@ function Navigation() {
   return (
     <nav>
       <Link href="/about">
-        <a className={styles.rodi}>Hakkımda</a>
+        <a className={styles.hakkımda}>Hakkımda</a>
       </Link>{" "}
       <Link href="/">
-        <a style={{ color: "purple" }}>Ana Sayfa</a>
+        <a className={styles.anasayfa}>Ana Sayfa</a>
       </Link>
-      <p>Lorem ipsum dolor sit amet.</p>
+      {/* <p>Lorem ipsum dolor sit amet.</p> */}
     </nav>
   );
 }

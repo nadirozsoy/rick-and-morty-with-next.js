@@ -4,3 +4,8 @@ p{
     font-weight: bold;
     font-style: italic;
 }
+a{
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}

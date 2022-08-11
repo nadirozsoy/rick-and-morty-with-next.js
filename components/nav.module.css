@@ -1,4 +1,14 @@
-.rodi{
+.hakkımda{
     background-color: rgb(180, 69, 69);
     color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 30%;
+}
+.anasayfa{
+    background-color: rgb(180, 69, 69);
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 7%;
 }
