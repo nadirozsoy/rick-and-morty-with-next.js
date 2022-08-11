@@ -10,7 +10,10 @@
   margin: 0 auto;
   width: 50%;
   box-sizing: border-box;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .anasayfa {
   background-color: rgb(180, 69, 69);
