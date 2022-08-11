@@ -11,7 +11,7 @@ function HomePage({ characters }) {
         <title>Ana Sayfa</title>
       </Head>
       <h1>THE RİCK AND MORTY</h1>
-      <ul>
+      <ul className={styles.ul}>
         {characters.results.map((character) => (
           <li key={character.id}>
             <Link href="/character/[slug]" as={`/character/${slug(character.name)}-${character.id}`}>

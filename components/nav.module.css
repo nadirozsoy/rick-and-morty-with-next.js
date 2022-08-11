@@ -3,18 +3,25 @@
   color: aliceblue;
   text-decoration: none;
   text-align: center;
-  margin-left: 30%;
   border-width: 5px;
   border-color: black;
   border-style: solid;
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  box-sizing: border-box;
+
 }
 .anasayfa {
   background-color: rgb(180, 69, 69);
   color: aliceblue;
   text-decoration: none;
   text-align: center;
-  margin-left: 7%;
   border-width: 5px;
   border-color: black;
   border-style: solid;
+  margin: 1rem auto;
+  display: block;
+  width: 50%;
+  box-sizing: border-box;
 }

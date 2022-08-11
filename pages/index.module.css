@@ -3,6 +3,19 @@
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
-    color: rgb(247, 21, 21);
+    color: rgb(255, 255, 255);
     text-align: center;
+    text-decoration: none;
+    text-align: center;
+    border-width: 5px;
+    background-color: rgb(55, 39, 39);
+    border-color: black;
+    border-style: solid;
+    display: block;
+    margin: 1rem auto;
+    width: 70%;
+    box-sizing: border-box;
+}
+.ul{
+    list-style-type:none;
 }
