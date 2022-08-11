@@ -12,7 +12,6 @@ function layout({ children }) {
       </Head>
       <Navigation></Navigation>
       <main>{children}</main>
-      <footer>design by Nadir</footer>
     </div>
   );
 }
