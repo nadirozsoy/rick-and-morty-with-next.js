@@ -16,6 +16,7 @@ function CharacterDetail({ character }) {
     </Layout>
   );
 }
+//*dynamic routes oluşturuyorsak getStaticPaths fonksiyonuna ihtiyacımız var
 export async function getStaticPaths() {
   const data = await fetch("https://rickandmortyapi.com/api/character/");
   const characters = await data.json();
