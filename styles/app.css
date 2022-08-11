@@ -1,19 +1,23 @@
-body{
-    color: rgb(0, 0, 0);
-    background: url("https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg") center center no-repeat;
-    background-size: cover;
-    align-items: center; 
-    padding: 5vh;
-    font-size: 2rem;
-    font-weight: 900;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+body {
+  color: rgb(0, 0, 0);
+  background: url("https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg")
+    center center no-repeat;
+  background-size: cover;
+  align-items: center;
+  padding: 5vh;
+  font-size: 2rem;
+  font-weight: 900;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-h1{
-    color: rgb(107, 56, 56);
-    font-size: 3rem;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 900;
-    background-color: aliceblue;
-    border-radius: 2rem;
-    text-align: center;
+h1 {
+  color: rgb(107, 56, 56);
+  font-size: 3rem;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
+  background-color: aliceblue;
+  border-radius: 2rem;
+  text-align: center;
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
 }
