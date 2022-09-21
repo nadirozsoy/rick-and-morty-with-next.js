@@ -11,7 +11,7 @@ function HomePage() {
         <title>About Me</title>
       </Head>
       <h1>Hi I'm Nadir</h1>
-      <a
+      <a target={"_blank"}
         className={styles.a}
         href="http://www.linkedin.com/in/thisisnadirozsoy"
       >

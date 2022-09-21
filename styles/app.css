@@ -3,6 +3,7 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
 body {
   color: rgb(0, 0, 0);
   background: url("https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg");
@@ -16,6 +17,7 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin: 0 auto;
 }
+
 h1 {
   color: rgb(107, 56, 56);
   font-size: 3rem;
