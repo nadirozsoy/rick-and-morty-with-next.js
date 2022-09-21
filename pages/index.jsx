@@ -8,13 +8,16 @@ function HomePage({ characters }) {
   return (
     <Layout>
       <Head>
-        <title>Ana Sayfa</title>
+        <title>Home Page</title>
       </Head>
       <h1>THE RİCK AND MORTY</h1>
       <ul className={styles.ul}>
         {characters.results.map((character) => (
           <li key={character.id}>
-            <Link href="/character/[slug]" as={`/character/${slug(character.name)}-${character.id}`}>
+            <Link
+              href="/character/[slug]"
+              as={`/character/${slug(character.name)}-${character.id}`}
+            >
               <a className={styles.index}>{character.name}</a>
             </Link>
           </li>

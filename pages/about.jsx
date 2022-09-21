@@ -8,10 +8,13 @@ function HomePage() {
   return (
     <Layout>
       <Head>
-        <title>Hakkımda</title>
+        <title>About Me</title>
       </Head>
-      <h1>Selam ben Nadir</h1>
-      <a className={styles.a} href="http://www.linkedin.com/in/thisisnadirozsoy">
+      <h1>Hi I'm Nadir</h1>
+      <a
+        className={styles.a}
+        href="http://www.linkedin.com/in/thisisnadirozsoy"
+      >
         <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
       </a>
     </Layout>

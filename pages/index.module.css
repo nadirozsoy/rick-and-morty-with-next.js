@@ -1,29 +1,29 @@
-.index{
-    font-size: 1.60rem;
-    font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    text-decoration: none;
-    text-align: center;
-    border-width: 5px;
-    background-color: rgb(55, 39, 39);
-    border-color: black;
-    border-style: solid;
-    display: block;
-    margin: 1rem auto;
-    width: 70%;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.index {
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none;
+  text-align: center;
+  border-width: 5px;
+  background-color: rgb(55, 39, 39);
+  border-color: black;
+  border-style: solid;
+  display: block;
+  margin: 1rem auto;
+  width: 70%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.index:hover{
-    background-color: rgb(255, 255, 255);
-    color: rgb(180, 69, 69);
+.index:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(180, 69, 69);
 }
-.ul{
-    list-style-type:none;
+.ul {
+  list-style-type: none;
 }

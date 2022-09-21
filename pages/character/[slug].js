@@ -24,14 +24,12 @@ export async function getStaticPaths() {
     paths: characters.results.map((character) => {
       return { params: { slug: `${slug(character.name)}-${character.id}` } };
     }),
-    fallback: false
+    fallback: false,
   };
 }
-export async function getStaticProps({params}) {
-  const id = params.slug.split("-").slice(-1)[0]
-  const data = await fetch(
-    "https://rickandmortyapi.com/api/character/" + id
-  );
+export async function getStaticProps({ params }) {
+  const id = params.slug.split("-").slice(-1)[0];
+  const data = await fetch("https://rickandmortyapi.com/api/character/" + id);
   const character = await data.json();
   return {
     props: {
